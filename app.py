@@ -44,6 +44,17 @@ def callback():
         abort(400)
     return 'OK'
 
+# 處理訊息
+@handler.add(MessageEvent, message=TextMessage)
+def handle_message(event):
+    message = TextSendMessage(text = "你說的是不是" + event.message.text)
+    #event.message.text就是用戶傳來的文字訊息
+    line_bot_api.reply_massage(event.reply_token,message)
+
+import os
+if __name__ == "__main__":
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
 
 # 處理訊息
 @handler.add(MessageEvent, message=TextMessage)
