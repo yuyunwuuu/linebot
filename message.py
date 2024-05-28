@@ -177,28 +177,28 @@ def image_carousel_message1():
         template=ImageCarouselTemplate(
             columns=[
                 ImageCarouselColumn(
-                    image_url="https://imgur.com/NkOCTRl.jpg",
+                    image_url="https://imgur.com/NkOCTRl",
                     action=URITemplateAction(
                         label="橘黃",
                         uri="https://plus.google.com/116237864387312784020/posts/S327kJKy6HG"
                     )
                 ),
                 ImageCarouselColumn(
-                    image_url="https://imgur.com/tzpIEbX.jpg",
+                    image_url="https://imgur.com/tzpIEbX",
                     action=URITemplateAction(
                         label="橘紅",
                         uri="https://cdn.101mediaimage.com/img/file/1410464751urhp5.jpg"
                     )
                 ),
                 ImageCarouselColumn(
-                    image_url="https://imgur.com/QXqpjZv.jpg",
+                    image_url="https://imgur.com/QXqpjZv",
                     action=URITemplateAction(
                         label="褐紅",
                         uri="http://imgm.cnmo-img.com.cn/appimg/screenpic/big/674/673928.JPG"
                     )
                 ),
                 ImageCarouselColumn(
-                    image_url="https://imgur.com/ZL8mXUd.jpg",
+                    image_url="https://imgur.com/ZL8mXUd",
                     action=URITemplateAction(
                         label="深褐",
                         uri="https://m-miya.net/wp-content/uploads/2014/07/0-065-1.min_.jpg"
