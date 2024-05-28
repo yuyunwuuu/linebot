@@ -11,8 +11,8 @@ def imagemap_message():
         base_size=BaseSize(height=2000, width=2000),
         actions=[
             URIImagemapAction(
-                #家樂福
-                link_uri="https://tw.shop.com/search/%E5%AE%B6%E6%A8%82%E7%A6%8F",
+                #珍芳
+                link_uri="https://www.zhenfang.com.tw/%e5%8d%b3%e9%a3%9f%e9%9a%a8%e6%89%8b%e5%8c%85.html",
                 area=ImagemapArea(
                     x=0, y=0, width=1000, height=1000
                 )
