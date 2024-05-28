@@ -6,7 +6,7 @@ from linebot.models import *
 #ImagemapSendMessage(組圖訊息)
 def imagemap_message():
     message = ImagemapSendMessage(
-        base_url="https://imgur.com/afReTY8",
+        base_url="https://imgur.com/afReTY8.jpg",
         alt_text='最新的合作廠商有誰呢？',
         base_size=BaseSize(height=2000, width=2000),
         actions=[
@@ -168,28 +168,28 @@ def image_carousel_message1():
         template=ImageCarouselTemplate(
             columns=[
                 ImageCarouselColumn(
-                    image_url="https://imgur.com/NkOCTRl",
+                    image_url="https://imgur.com/NkOCTRl.jpg",
                     action=URITemplateAction(
                         label="橘黃",
                         uri="https://plus.google.com/116237864387312784020/posts/S327kJKy6HG"
                     )
                 ),
                 ImageCarouselColumn(
-                    image_url="https://i.imgur.com/QOcAvjt.jpg",
+                    image_url="https://imgur.com/tzpIEbX.jpg",
                     action=URITemplateAction(
                         label="橘紅",
                         uri="https://cdn.101mediaimage.com/img/file/1410464751urhp5.jpg"
                     )
                 ),
                 ImageCarouselColumn(
-                    image_url="https://i.imgur.com/Np7eFyj.jpg",
+                    image_url="https://imgur.com/QXqpjZv.jpg",
                     action=URITemplateAction(
                         label="褐紅",
                         uri="http://imgm.cnmo-img.com.cn/appimg/screenpic/big/674/673928.JPG"
                     )
                 ),
                 ImageCarouselColumn(
-                    image_url="https://i.imgur.com/QRIa5Dz.jpg",
+                    image_url="https://imgur.com/ZL8mXUd.jpg",
                     action=URITemplateAction(
                         label="深褐",
                         uri="https://m-miya.net/wp-content/uploads/2014/07/0-065-1.min_.jpg"
