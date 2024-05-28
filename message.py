@@ -168,7 +168,7 @@ def image_carousel_message1():
         template=ImageCarouselTemplate(
             columns=[
                 ImageCarouselColumn(
-                    image_url="https://i.imgur.com/uKYgfVs.jpg",
+                    image_url="https://imgur.com/NkOCTRl",
                     action=URITemplateAction(
                         label="橘黃",
                         uri="http://img.juimg.com/tuku/yulantu/110709/222-110F91G31375.jpg"
