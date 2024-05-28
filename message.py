@@ -171,7 +171,7 @@ def image_carousel_message1():
                     image_url="https://imgur.com/NkOCTRl",
                     action=URITemplateAction(
                         label="橘黃",
-                        uri="http://img.juimg.com/tuku/yulantu/110709/222-110F91G31375.jpg"
+                        uri="https://plus.google.com/116237864387312784020/posts/S327kJKy6HG"
                     )
                 ),
                 ImageCarouselColumn(
