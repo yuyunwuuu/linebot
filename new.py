@@ -9,16 +9,16 @@ def test():
         template=ImageCarouselTemplate(
             columns=[
                 ImageCarouselColumn(
-                    image_url="https://i.imgur.com/uKYgfVs.jpg",
+                    image_url="https://imgur.com/NkOCTRl",
                     action=URITemplateAction(
-                        label="新鮮水果",
-                        uri="http://img.juimg.com/tuku/yulantu/110709/222-110F91G31375.jpg"
+                        label="橘黃",
+                        uri="https://plus.google.com/116237864387312784020/posts/S327kJKy6HG"
                     )
                 ),
                 ImageCarouselColumn(
                     image_url="https://i.imgur.com/QOcAvjt.jpg",
                     action=URITemplateAction(
-                        label="新鮮蔬菜",
+                        label="橘紅",
                         uri="https://cdn.101mediaimage.com/img/file/1410464751urhp5.jpg"
                     )
                 ),
